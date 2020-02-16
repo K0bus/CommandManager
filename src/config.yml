@@ -1,0 +1,13 @@
+##Plugin configuration
+tag: '&r[&caCommandManager&r] '
+
+tell-disable: false ## Run message if command is disable
+
+## Disable command
+disable:
+  - 'me'
+log:
+  - 'about'
+
+lang:
+  disable: '&4This command is disabled on this server !'

@@ -1,0 +1,18 @@
+name: ${project.artifactId}
+main: fr.k0bus.advancedcommandmanager.Main
+version: ${project.version}
+api-version: 1.15
+commands:
+   acmdmanager:
+      description: Commande principale !
+      usage: /acmdmanager
+permissions:
+   acommandmanager.bypass.disable:
+      description: "Allow bypass disable command"
+      default: op
+   acommandmanager.log:
+      description: "Define if user has to be logged"
+      default: op
+   acommandmanager.reload:
+      description: "Allow reload plugin config"
+      default: op
